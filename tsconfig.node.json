@@ -1,10 +1,26 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["vite.config.ts"]
+	"compilerOptions": {
+		"composite": true,
+		"jsx": "react",
+		"baseUrl": ".",
+		"moduleResolution": "bundler",
+		"paths": {
+			"@src/*": [
+				"src/*"
+			],
+		},
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"vite.config.ts",
+		"next-env.d.ts",
+		"twin.d.ts",
+		"**/*.ts",
+		"**/*.tsx"
+	],
+	"exclude": [
+		"node_modules"
+	]
 }
