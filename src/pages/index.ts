@@ -1,0 +1,5 @@
+export { About } from './about'
+export { Contacts } from './contacts'
+export { MainPage } from './main'
+export { Product } from './product'
+export { Store } from './store'

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { BaseLayout } from './layouts/BaseLayout'
-import { MainPage } from '../pages/MainPage'
+import { About, Contacts, MainPage, Product, Store } from '../pages'
 
 export const appRouter = createBrowserRouter([
    {
@@ -10,6 +10,24 @@ export const appRouter = createBrowserRouter([
          {
             path: '/',
             element: <MainPage />,
+         },
+         {
+            path: '/store',
+            element: <Store />,
+            children: [
+               {
+                  path: 'product/:id',
+                  element: <Product />,
+               },
+            ],
+         },
+         {
+            path: '/contacts',
+            element: <Contacts />,
+         },
+         {
+            path: '/about',
+            element: <About />,
          },
       ],
    },
