@@ -1,6 +1,11 @@
 {
    "env": { "browser": true, "es2020": true },
-   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:react-hooks/recommended"],
+   "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:import/typescript"
+   ],
    "settings": {
       "import/resolver": {
          "typescript": true,
@@ -13,7 +18,6 @@
    "rules": {
       "react-refresh/only-export-components": "warn",
       "prettier/prettier": 2,
-      "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
       "import/named": 2,
       "import/namespace": 2,
       "import/default": 2,

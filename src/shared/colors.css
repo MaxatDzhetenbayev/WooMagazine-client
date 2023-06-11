@@ -1,0 +1,20 @@
+:root {
+   /* Global colors */
+   --color-white: #fff;
+   --color-dark: #000;
+   --color-first: #6e9c9f;
+}
+
+html[data-theme='light'] {
+   --text-color: #000;
+   --link-color: #6e9c9f;
+   --link-color-hover: #509498;
+   --background-color: #fff;
+}
+
+html[data-theme='dark'] {
+   --text-color: #fff;
+   --link-color: #fff;
+   --link-color-hover: #828fff;
+   --background-color: #000;
+}

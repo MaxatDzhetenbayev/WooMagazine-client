@@ -22,20 +22,9 @@
       "moduleResolution": "node",
       "resolveJsonModule": true,
       "isolatedModules": true,
-      "noEmit": true,
+      "noEmit": false,
       "composite": true,
-      "jsx": "react",
-      "baseUrl": ".",
-      "paths": {
-         "@src/*": ["src/*"],
-         "@app/*": ["src/app/*"],
-         "@pages/*": ["src/pages/*"],
-         "@widgets/*": ["src/widgets/*"],
-         "@features/*": ["src/Features/*"],
-         "@entities/*": ["src/entities/*"],
-         "@shared/*": ["src/shared/*"],
-         "@assets/*": ["src/assets/*"]
-      }
+      "jsx": "react-jsx"
    },
    "include": ["vite.config.ts", "next-env.d.ts", "twin.d.ts", "**/*.ts", "**/*.tsx"],
    "exclude": ["node_modules"]
