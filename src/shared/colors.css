@@ -1,12 +1,16 @@
 :root {
    /* Global colors */
    --color-white: #fff;
+   --text-color-first: #000;
+   --text-color-second: #9c9c9c;
    --color-dark: #000;
    --color-first: #6e9c9f;
+   --color-second: #f1eadc;
 }
 
 html[data-theme='light'] {
-   --text-color: #000;
+   --text-color-first: #000;
+   --text-color-second: #9c9c9c;
    --link-color: #6e9c9f;
    --link-color-hover: #509498;
    --background-color: #fff;
@@ -14,6 +18,7 @@ html[data-theme='light'] {
 
 html[data-theme='dark'] {
    --text-color: #fff;
+   --text-color-second: #9c9c9c;
    --link-color: #fff;
    --link-color-hover: #828fff;
    --background-color: #000;
