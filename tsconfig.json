@@ -18,15 +18,16 @@
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
       "forceConsistentCasingInFileNames": true,
-      "module": "ES6",
+      "module": "ESNext",
       "moduleResolution": "node",
       "resolveJsonModule": true,
       "isolatedModules": true,
-      "noEmit": false,
+      "noEmit": true,
+      "allowImportingTsExtensions": true,
+
       "jsx": "react-jsx"
    },
-   "include": ["./src", "vite.config.ts", "next-env.d.ts", "twin.d.ts", "**/*.ts", "**/*.tsx"],
-   "files": [],
+   "include": ["src"],
    "references": [
       {
          "path": "./tsconfig.node.json"

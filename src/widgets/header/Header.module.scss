@@ -1,0 +1,39 @@
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   width: 100%;
+   padding: 20px 0;
+
+   &_logo {
+      display: flex;
+      align-items: center;
+   }
+
+   &_rightSide {
+      display: flex;
+      gap: 67px;
+      align-items: center;
+   }
+
+   &_phone {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+   }
+}
+
+.navigate {
+   &_list {
+      display: flex;
+      gap: 45px;
+      list-style-type: none;
+   }
+
+   &_item {
+      a {
+         color: var(--text-color-first);
+      }
+   }
+}

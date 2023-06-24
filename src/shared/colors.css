@@ -18,6 +18,7 @@ html[data-theme='light'] {
 
 html[data-theme='dark'] {
    --text-color: #fff;
+   --text-color-first: #000;
    --text-color-second: #9c9c9c;
    --link-color: #fff;
    --link-color-hover: #828fff;
