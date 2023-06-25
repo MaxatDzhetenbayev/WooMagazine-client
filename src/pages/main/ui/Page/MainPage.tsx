@@ -8,7 +8,7 @@ import 'swiper/css/effect-cards'
 import 'swiper/css/pagination'
 
 import { Button } from '../../../../shared/UI/button/Button'
-import { Htag } from '../../../../shared/UI/htag/Htag'
+import { Htags } from '../../../../shared/UI/htags/HTags'
 import { Slider } from '../../../../entities/slider/Slider'
 
 export const MainPage = () => {
@@ -16,9 +16,9 @@ export const MainPage = () => {
       <div className={style.main}>
          <div className={style.welcome}>
             <div className={style.banner}>
-               <Htag tag='h1' style={{ marginBottom: '42px' }}>
+               <Htags tag='h1' style={{ marginBottom: '42px' }}>
                   Новые поступления в этом сезоне
-               </Htag>
+               </Htags>
                <div className={style.banner_content}>
                   <PTag size='md' style={{ marginBottom: '55px' }}>
                      Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
