@@ -5,6 +5,9 @@
    --text-color-first: #000;
    --text-color-second: #6e9c9f;
    --text-color-third: #fff;
+   --xs-viewport: 599px;
+   --s-viewport: 767px;
+   --m-viewport: 1023px;
 }
 
 html[data-theme='light'] {
