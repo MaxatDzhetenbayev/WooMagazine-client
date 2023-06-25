@@ -13,17 +13,20 @@ import 'swiper/css/pagination'
 
 import slide from '../../../../assets/slider.png'
 import { Button } from '../../../../shared/UI/button/Button'
+import { Htag } from '../../../../shared/UI/htag/Htag'
 
 export const MainPage = () => {
    return (
       <div className={style.main}>
          <div className={style.welcome}>
             <div className={style.banner}>
-               <h1>Новые поступления в этом сезоне</h1>
-               <PTag size='md'>
-                  Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
-               </PTag>
-               <Link to={'/store'}>Открыть магазин</Link>
+               <Htag tag='h1'>Новые поступления в этом сезоне</Htag>
+               <div className={style.banner_content}>
+                  <PTag size='md' style={{ textAlign: 'right' }}>
+                     Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                  </PTag>
+                  <Button mode='primary'>Открыть магазин</Button>
+               </div>
             </div>
             <div>
                <Swiper

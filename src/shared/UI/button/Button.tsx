@@ -4,9 +4,10 @@ import cn from 'classnames'
 
 interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
    mode?: 'primary' | 'secendary'
+   array?: boolean
 }
 
-export const Button = ({ mode = 'secendary', children, onClick }: ButtonProps) => {
+export const Button = ({ mode = 'secendary', children, onClick, ...props }: ButtonProps) => {
    return (
       <button
          className={cn(style.button, {
@@ -14,6 +15,7 @@ export const Button = ({ mode = 'secendary', children, onClick }: ButtonProps) =
             [style.secendary]: mode === 'secendary',
          })}
          onClick={onClick}
+         {...props}
       >
          {children}
       </button>

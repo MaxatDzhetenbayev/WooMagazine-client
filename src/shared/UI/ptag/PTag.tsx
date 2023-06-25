@@ -8,7 +8,7 @@ interface PTagProps extends DetailedHTMLProps<HtmlHTMLAttributes<HTMLParagraphEl
    children: ReactNode
 }
 
-export const PTag = ({ size = 'sm', color = 'first', children }: PTagProps) => {
+export const PTag = ({ size = 'sm', color = 'first', children, ...props }: PTagProps) => {
    return (
       <p
          className={cn(style.root, {
@@ -19,6 +19,7 @@ export const PTag = ({ size = 'sm', color = 'first', children }: PTagProps) => {
             [style.first]: color === 'first',
             [style.second]: color === 'second',
          })}
+         {...props}
       >
          {children}
       </p>
