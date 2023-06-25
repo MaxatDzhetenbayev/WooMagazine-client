@@ -7,4 +7,11 @@ export default defineConfig({
    resolve: {
       extensions: ['.ts', '.tsx'],
    },
+   css: {
+      preprocessorOptions: {
+         scss: {
+            additionalData: '@import "./src/app/mixins.scss";',
+         },
+      },
+   },
 })

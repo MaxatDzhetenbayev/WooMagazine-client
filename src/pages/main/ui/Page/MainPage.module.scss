@@ -7,24 +7,34 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      max-width: 585px;
 
       &_content {
          display: flex;
          flex-direction: column;
          align-items: flex-end;
-         max-width: 380px;
-      }
-   }
 
-   .slider {
-      max-width: 410px;
-      height: 500px;
-      margin-right: 70px;
+         max-width: 380px;
+
+         text-align: right;
+      }
    }
 
    a {
       display: block;
       padding: 30px;
+   }
+}
+
+@media (width <= 1024px) {
+   .welcome {
+      .banner {
+         align-items: center;
+         text-align: center;
+
+         &_content {
+            align-items: center;
+            text-align: center;
+         }
+      }
    }
 }

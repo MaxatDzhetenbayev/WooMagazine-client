@@ -1,0 +1,11 @@
+.slider {
+   max-width: 410px;
+   height: 500px;
+   margin-right: 70px;
+}
+
+@media (width <= 1024px) {
+   .slider {
+      display: none;
+   }
+}

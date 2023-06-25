@@ -8,6 +8,7 @@
    --xs-viewport: 599px;
    --s-viewport: 767px;
    --m-viewport: 1023px;
+   --max-width: 1200px;
 }
 
 html[data-theme='light'] {

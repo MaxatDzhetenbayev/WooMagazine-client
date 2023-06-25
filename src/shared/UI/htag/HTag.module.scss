@@ -1,23 +1,23 @@
 .h1 {
-   font-size: 55px;
+   @include adaptiv-font(55, 40);
    font-weight: 500;
    line-height: 110%;
 }
 
 .h2 {
-   font-size: 40px;
+   @include adaptiv-font(40, 32);
    font-weight: 500;
    line-height: 110%;
 }
 
 .h3 {
-   font-size: 25px;
+   @include adaptiv-font(25, 18);
    font-weight: 500;
    line-height: 140%;
 }
 
 .h4 {
-   font-size: 20px;
+   @include adaptiv-font(20, 14);
    font-weight: 500;
    line-height: 140%;
 }
