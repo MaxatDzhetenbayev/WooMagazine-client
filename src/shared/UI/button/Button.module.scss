@@ -1,0 +1,16 @@
+.button {
+   cursor: pointer;
+   padding: 22px 50px;
+   border: none;
+}
+
+.primary {
+   color: var(--text-color-third);
+   background-color: var(--color-first);
+}
+
+.secendary {
+   color: var(--text-color-second);
+   background-color: transparent;
+   border: 1px solid var(--color-first);
+}

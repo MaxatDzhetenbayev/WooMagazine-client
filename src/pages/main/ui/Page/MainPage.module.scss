@@ -1,0 +1,20 @@
+.welcome {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   .banner {
+      max-width: 585px;
+   }
+
+   .slider {
+      max-width: 410px;
+      height: 500px;
+      margin-right: 70px;
+   }
+
+   a {
+      display: block;
+      padding: 30px;
+   }
+}

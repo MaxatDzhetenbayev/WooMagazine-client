@@ -1,3 +1,6 @@
+@import 'colors.css';
+@import 'breakpoints.css';
+
 :root {
    font-family: Raleway;
    text-rendering: optimizelegibility;

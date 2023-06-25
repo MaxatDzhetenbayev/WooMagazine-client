@@ -1,6 +1,11 @@
 @import '../../base.css';
 
 .root {
+   position: relative;
    max-width: 1200px;
    margin: 0 auto;
+}
+
+.content {
+   margin-top: 40px;
 }

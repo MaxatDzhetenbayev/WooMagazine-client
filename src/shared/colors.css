@@ -1,25 +1,29 @@
 :root {
    /* Global colors */
-   --color-white: #fff;
-   --text-color-first: #000;
-   --text-color-second: #9c9c9c;
-   --color-dark: #000;
    --color-first: #6e9c9f;
    --color-second: #f1eadc;
+   --text-color-first: #000;
+   --text-color-second: #6e9c9f;
+   --text-color-third: #fff;
 }
 
 html[data-theme='light'] {
+   --color-first: #6e9c9f;
+   --color-second: #f1eadc;
    --text-color-first: #000;
-   --text-color-second: #9c9c9c;
+   --text-color-second: #6e9c9f;
+   --text-color-third: #fff;
    --link-color: #6e9c9f;
    --link-color-hover: #509498;
    --background-color: #fff;
 }
 
 html[data-theme='dark'] {
-   --text-color: #fff;
+   --color-first: #6e9c9f;
+   --color-second: #f1eadc;
    --text-color-first: #000;
-   --text-color-second: #9c9c9c;
+   --text-color-second: #6e9c9f;
+   --text-color-third: #000;
    --link-color: #fff;
    --link-color-hover: #828fff;
    --background-color: #000;
