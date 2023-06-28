@@ -6,6 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import slide from '../../assets/slider.png'
 import style from './Slider.module.scss'
 
+import 'swiper/css'
+import 'swiper/css/effect-cards'
+import 'swiper/css/pagination'
+
 export const Slider = () => {
    return (
       <div>
