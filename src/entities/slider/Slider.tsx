@@ -12,7 +12,7 @@ import 'swiper/css/pagination'
 
 export const Slider = () => {
    return (
-      <div>
+      <div className={style.wrapper}>
          <Swiper
             className={style.slider}
             modules={[EffectCards, Pagination, Mousewheel, Keyboard]}

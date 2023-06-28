@@ -4,8 +4,12 @@
    margin-right: 70px;
 }
 
+.wrapper {
+	display: block;
+}
+
 @media (width <= 1024px) {
-   .slider {
+   .wrapper {
       display: none;
    }
 }
